@@ -8,6 +8,9 @@ function ColorList() {
     "darkslategray",
     "hotpink",
   ];
+  const colorElements =colors.map((color)=>{
+    return <li style={{color: color}}>{color}</li>;
+  });
 
   return (
     <div>
